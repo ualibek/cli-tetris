@@ -109,17 +109,13 @@ let buildFrame (state: GameState) : string list =
 
 // ── Output ────────────────────────────────────────────────────────────────────
 
-let private writeLine (row: int) (width: int) (text: string) : unit =
-    System.Console.SetCursorPosition(0, row)
-    System.Console.Write(text.PadRight(width))
-
 /// Render a complete frame in-place: jump to (0,0) and overwrite every line.
 let render (state: GameState) : unit =
     try
         let lines      = buildFrame state
         let clearWidth = max 1 (System.Console.WindowWidth - 1)
         let frame      = lines |> List.map (fun l -> l.PadRight(clearWidth)) |> String.concat "\n"
-        System.Console.Clear()
+        System.Console.Write("\x1b[H\x1b[3J\x1b[2J")
         System.Console.Write(frame)
     with
     | :? System.ArgumentOutOfRangeException -> ()

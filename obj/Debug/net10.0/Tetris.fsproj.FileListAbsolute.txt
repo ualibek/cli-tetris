@@ -27,3 +27,4 @@ X:\KAIST\spring_2026\programming_principles\Project\Tetris\obj\Debug\net10.0\ref
 X:\KAIST\spring_2026\programming_principles\Project\Tetris\obj\Debug\net10.0\Tetris.pdb
 X:\KAIST\spring_2026\programming_principles\Project\Tetris\obj\Debug\net10.0\Tetris.genruntimeconfig.cache
 X:\KAIST\spring_2026\programming_principles\Project\Tetris\obj\Debug\net10.0\ref\Tetris.dll
+X:\KAIST\spring_2026\programming_principles\Project\Tetris\obj\Debug\net10.0\Tetris.sourcelink.json

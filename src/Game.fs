@@ -108,7 +108,7 @@ let gravityTick (state: GameState) : GameState =
 let run () : unit =
     System.Console.CursorVisible <- false
     System.Console.Title <- "CLI Tetris"
-    System.Console.Clear()
+    System.Console.Write("\x1b[H\x1b[3J\x1b[2J")
 
     let mutable state      = initialState ()
     let mutable lastDrop   = System.Diagnostics.Stopwatch.GetTimestamp()
