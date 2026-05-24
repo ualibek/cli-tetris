@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "NKAXvHMKWo0=",
+  "success": true,
+  "projectFilePath": "X:\\KAIST\\spring_2026\\programming_principles\\Project\\Tetris\\Tetris.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Dell\\.nuget\\packages\\fsharp.core\\10.0.103\\fsharp.core.10.0.103.nupkg.sha512"
+  ],
+  "logs": []
+}

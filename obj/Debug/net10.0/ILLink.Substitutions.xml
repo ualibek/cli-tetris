@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<linker>
+  <assembly fullname="Tetris">
+    <resource name="FSharpSignatureData.Tetris" action="remove"></resource>
+    <resource name="FSharpSignatureCompressedData.Tetris" action="remove"></resource>
+    <resource name="FSharpSignatureDataB.Tetris" action="remove"></resource>
+    <resource name="FSharpSignatureCompressedDataB.Tetris" action="remove"></resource>
+    <resource name="FSharpOptimizationData.Tetris" action="remove"></resource>
+    <resource name="FSharpOptimizationCompressedData.Tetris" action="remove"></resource>
+    <resource name="FSharpOptimizationDataB.Tetris" action="remove"></resource>
+    <resource name="FSharpOptimizationCompressedDataB.Tetris" action="remove"></resource>
+    <resource name="FSharpOptimizationInfo.Tetris" action="remove"></resource>
+    <resource name="FSharpSignatureInfo.Tetris" action="remove"></resource>
+  </assembly>
+</linker>
